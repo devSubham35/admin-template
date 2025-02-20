@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.ag-cell-focus,
+.ag-cell-no-focus {
+  border: 1px solid transparent !important;
+}
+
+::ng-deep .ag-cell:focus {
+  border: 1px solid transparent !important;
+  outline: none;
+}
